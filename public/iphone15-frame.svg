@@ -1,0 +1,17 @@
+<svg width="410" height="808" viewBox="0 0 410 808" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bezel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1F1F1F" />
+      <stop offset="1" stop-color="#050505" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgba(255,255,255,0.08)" />
+      <stop offset="1" stop-color="rgba(255,255,255,0.02)" />
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="406" height="804" rx="58" fill="url(#bezel)" stroke="#0F0F0F" stroke-width="4" />
+  <rect x="18" y="18" width="374" height="772" rx="48" fill="#020309" />
+  <rect x="18" y="18" width="374" height="772" rx="48" fill="url(#glass)" />
+  <rect x="154" y="10" width="102" height="28" rx="14" fill="#050608" stroke="#0E1016" stroke-width="2" />
+  <circle cx="205" cy="28" r="4" fill="#0B111D" />
+</svg>
