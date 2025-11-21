@@ -11,7 +11,7 @@ const backgroundDigits = new Array(24)
 
 export function RealtimeAISection() {
     return (
-        <section className="relative overflow-hidden py-24" id="temps-reel">
+        <section className="relative overflow-hidden py-16" id="temps-reel">
             <motion.div
                 className="pointer-events-none absolute inset-0 opacity-30"
                 aria-hidden

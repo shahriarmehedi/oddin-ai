@@ -53,8 +53,8 @@ export function Header() {
                         FAQ
                     </a>
                     <a
-                        className="btn-primary"
-                        href="https://t.me/oddinai"
+                        className="btn-primary animate-pulse-glow"
+                        href="https://t.me/+9P4yVW6WvQQyMDI0"
                         target="_blank"
                         rel="noreferrer noopener"
                     >
@@ -84,7 +84,7 @@ export function Header() {
                             </a>
                             <a
                                 className="btn-primary"
-                                href="https://t.me/oddinai"
+                                href="https://t.me/+9P4yVW6WvQQyMDI0"
                                 target="_blank"
                                 rel="noreferrer noopener"
                                 onClick={closeMenu}

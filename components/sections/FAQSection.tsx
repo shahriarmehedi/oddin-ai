@@ -27,7 +27,7 @@ export function FAQSection() {
     const [active, setActive] = useState(0);
 
     return (
-        <section className="container space-y-12 py-24" id="faq">
+        <section className="container space-y-12 py-16" id="faq">
             <SectionHeading
                 eyebrow="QUESTIONS FRÉQUENTES"
                 title="Transparence totale, zéro friction."

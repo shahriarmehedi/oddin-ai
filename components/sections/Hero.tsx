@@ -100,11 +100,11 @@ export function HeroSection() {
                     >
                         <a
                             className="btn-primary py-4 animate-pulse-glow"
-                            href="https://t.me/oddinai"
+                            href="https://t.me/+9P4yVW6WvQQyMDI0"
                             target="_blank"
                             rel="noreferrer noopener"
                         >
-                            Tester gratuitement
+                            Essayer gratuitement sur Telegram
                         </a>
                         <a className="btn-ghost py-4" href="#simulateur">
                             Voir le simulateur

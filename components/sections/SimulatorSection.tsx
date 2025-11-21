@@ -91,7 +91,7 @@ export function SimulatorSection() {
     }, [capital, result.totalBets]);
 
     return (
-        <section id="simulateur" className="relative overflow-hidden py-24">
+        <section id="simulateur" className="relative overflow-hidden py-16">
             <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(30,136,229,0.12),transparent_60%)] opacity-60" aria-hidden />
             <div className="container relative z-10 space-y-16">
                 <SectionHeading

@@ -12,7 +12,7 @@ const roadmap = [
 
 export function RoadmapSection() {
     return (
-        <section className="relative overflow-hidden py-28" id="a-venir">
+        <section className="relative overflow-hidden py-20" id="a-venir">
             <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(0,230,118,0.15),_transparent_55%)]" aria-hidden />
             <div className="pointer-events-none absolute inset-12 rounded-[48px] border border-white/5 bg-white/5/30 blur-3xl" aria-hidden />
             <div className="container relative z-10 space-y-16">

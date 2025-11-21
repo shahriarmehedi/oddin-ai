@@ -23,7 +23,7 @@ export function PricingSection() {
     };
 
     return (
-        <section className="container space-y-12 py-24" id="pricing">
+        <section className="container space-y-12 py-16" id="pricing">
             <SectionHeading
                 eyebrow="PLANS ET TARIFS"
                 title="Choisissez votre façon de gagner."

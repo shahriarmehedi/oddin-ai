@@ -1,4 +1,5 @@
 import { AboutSection } from "../components/sections/AboutSection";
+import { AlertsSection } from "../components/sections/AlertsSection";
 import { FAQSection } from "../components/sections/FAQSection";
 import { FeaturesSection } from "../components/sections/FeaturesSection";
 import { HeroSection } from "../components/sections/Hero";
@@ -14,14 +15,25 @@ export default function Home() {
   return (
     <main className="bg-night text-white">
       <HeroSection />
+      <div className="h-12" />
       <RealtimeAISection />
+      <div className="h-12" />
       <StatsSection />
+      <div className="h-12" />
+      <AlertsSection />
+      <div className="h-12" />
       <SimulatorSection />
+      <div className="h-12" />
       <FeaturesSection />
+      <div className="h-12" />
       <PricingSection />
+      <div className="h-12" />
       <TestimonialsSection />
+      <div className="h-12" />
       <FAQSection />
+      <div className="h-12" />
       <AboutSection />
+      <div className="h-12" />
       <RoadmapSection />
       <Footer />
     </main>

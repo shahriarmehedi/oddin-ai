@@ -84,7 +84,7 @@ function StatCircle({ label, value, color }: (typeof stats)[number]) {
 
 export function StatsSection() {
     return (
-        <section className="relative overflow-hidden py-24" id="chiffres">
+        <section className="relative overflow-hidden py-16" id="chiffres">
             <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,230,118,0.08),transparent_70%)] opacity-50" aria-hidden />
             <div className="container relative z-10 space-y-16">
                 <SectionHeading

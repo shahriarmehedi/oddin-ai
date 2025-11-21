@@ -69,7 +69,7 @@ export function AboutSection() {
     const indicators = useMemo(() => Array.from({ length: totalCards }), [totalCards]);
 
     return (
-        <section className="container space-y-12 py-24" id="a-propos">
+        <section className="container space-y-12 py-16" id="a-propos">
             <SectionHeading
                 eyebrow="À PROPOS"
                 title="OddinAI. Là où la logique rencontre la performance."
@@ -94,7 +94,7 @@ export function AboutSection() {
                 <div className="mt-8">
                     <a
                         className="btn-primary"
-                        href="https://t.me/oddinai"
+                        href="https://t.me/+9P4yVW6WvQQyMDI0"
                         target="_blank"
                         rel="noreferrer noopener"
                     >

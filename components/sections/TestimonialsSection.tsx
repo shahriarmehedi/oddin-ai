@@ -48,7 +48,7 @@ export function TestimonialsSection() {
     );
 
     return (
-        <section className="relative overflow-hidden py-24" id="temoignages">
+        <section className="relative overflow-hidden py-16" id="temoignages">
             <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,230,118,0.08),transparent_60%)]" aria-hidden />
             <div className="container relative z-10 space-y-12">
                 <SectionHeading

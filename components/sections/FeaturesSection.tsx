@@ -32,7 +32,7 @@ const features = [
 
 export function FeaturesSection() {
     return (
-        <section className="container space-y-12 py-24" id="pourquoi">
+        <section className="container space-y-12 py-16" id="pourquoi">
             <SectionHeading
                 eyebrow="POURQUOI ODDINAI ?"
                 title="Choisir OddinAI, c'est choisir la clarté."
