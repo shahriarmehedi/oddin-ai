@@ -82,10 +82,8 @@ export function AboutSection() {
                     {paragraphs.map((text) => (
                         <motion.p
                             key={text}
-                            initial={{ opacity: 0, y: 16 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true, amount: 0.5 }}
-                            transition={{ duration: 0.4 }}
+                            initial={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.2 }}
                         >
                             {text}
                         </motion.p>

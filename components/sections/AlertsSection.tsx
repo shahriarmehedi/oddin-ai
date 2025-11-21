@@ -49,10 +49,8 @@ export function AlertsSection() {
                 <div className="max-w-4xl mx-auto space-y-8">
                     <motion.div
                         className="text-center space-y-4"
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6 }}
+                        initial={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.3 }}
                     >
                         <p className="text-lg text-white/80">
                             Chaque alerte contient :
@@ -80,10 +78,8 @@ export function AlertsSection() {
                                 <motion.div
                                     key={alert.type}
                                     className="relative group"
-                                    initial={{ opacity: 0, y: 32 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    viewport={{ once: true }}
-                                    transition={{ duration: 0.6, delay: idx * 0.1 }}
+                                    initial={{ opacity: 1, y: 0 }}
+                                    transition={{ duration: 0.3 }}
                                 >
                                     <div className="relative rounded-2xl border border-white/10 bg-gradient-to-b from-white/5 to-night/40 p-6 backdrop-blur-sm hover:border-white/20 transition-colors">
                                         <div className="absolute top-3 right-3 text-xs text-white/40">
@@ -129,10 +125,8 @@ export function AlertsSection() {
 
                     <motion.div
                         className="text-center pt-8"
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6, delay: 0.3 }}
+                        initial={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.2 }}
                     >
                         <a
                             className="btn-primary inline-flex items-center gap-2 py-4 px-8 animate-pulse-glow"

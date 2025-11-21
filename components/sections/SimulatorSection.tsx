@@ -102,10 +102,8 @@ export function SimulatorSection() {
                 <div className="grid gap-8 lg:grid-cols-2">
                     <motion.div
                         className="space-y-8 rounded-[32px] border border-white/10 bg-gradient-to-b from-white/5 to-transparent p-8 backdrop-blur-sm"
-                        initial={{ opacity: 0, x: -30 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true, amount: 0.3 }}
-                        transition={{ duration: 0.6 }}
+                        initial={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.2 }}
                     >
                         <div className="flex flex-wrap gap-2">
                             {presets.map((preset) => (
@@ -191,10 +189,8 @@ export function SimulatorSection() {
                     </motion.div>
                     <motion.div
                         className="relative overflow-hidden rounded-[32px] border border-white/10 bg-gradient-to-b from-white/5 to-transparent p-8"
-                        initial={{ opacity: 0, x: 30 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true, amount: 0.3 }}
-                        transition={{ duration: 0.6 }}
+                        initial={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.2 }}
                     >
                         <div className="absolute inset-0 bg-azure/5 blur-[100px]" aria-hidden />
                         <div className="relative space-y-6">

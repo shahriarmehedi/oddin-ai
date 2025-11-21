@@ -93,34 +93,34 @@ export function HeroSection() {
                         </motion.p>
                     </div>
                     <motion.div
-                        className="flex flex-wrap items-center gap-4"
+                        className="flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center gap-3 sm:gap-4"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
                     >
                         <a
-                            className="btn-primary py-4 animate-pulse-glow"
+                            className="btn-primary py-4 text-center animate-pulse-glow"
                             href="https://t.me/+9P4yVW6WvQQyMDI0"
                             target="_blank"
                             rel="noreferrer noopener"
                         >
                             Essayer gratuitement sur Telegram
                         </a>
-                        <a className="btn-ghost py-4" href="#simulateur">
+                        <a className="btn-ghost py-4 text-center" href="#simulateur">
                             Voir le simulateur
                         </a>
                     </motion.div>
-                    <div className="mt-6 grid gap-6 sm:grid-cols-3">
+                    <div className="mt-6 flex flex-wrap items-center justify-between gap-4 sm:grid sm:gap-6 sm:grid-cols-3">
                         {heroStats.map((stat, idx) => (
                             <motion.div
                                 key={stat.label}
-                                className="space-y-1"
+                                className="space-y-1 text-center sm:text-left min-w-[calc(33.333%-1rem)]"
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.6, delay: idx * 0.1 }}
                             >
-                                <p className="text-2xl font-semibold text-white">{stat.value}</p>
-                                <p className="text-xs text-white/40 uppercase tracking-wide">{stat.label}</p>
+                                <p className="text-xl sm:text-2xl font-semibold text-white">{stat.value}</p>
+                                <p className="text-[10px] sm:text-xs text-white/40 uppercase tracking-wide">{stat.label}</p>
                             </motion.div>
                         ))}
                     </div>

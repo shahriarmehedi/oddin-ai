@@ -35,10 +35,8 @@ export function RoadmapSection() {
                                 <motion.article
                                     key={item.title}
                                     className="group relative overflow-hidden rounded-[32px] border border-white/10 bg-night/80 p-6 shadow-card"
-                                    initial={{ opacity: 0, x: -24 }}
-                                    whileInView={{ opacity: 1, x: 0 }}
-                                    viewport={{ once: true, amount: 0.4 }}
-                                    transition={{ delay: idx * 0.08, duration: 0.5 }}
+                                    initial={{ opacity: 1, x: 0 }}
+                                    transition={{ duration: 0.2 }}
                                 >
                                     <span className="absolute left-[-46px] top-8 flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-night text-white/70 shadow-[0_0_25px_rgba(0,230,118,0.35)]">
                                         <span className="h-2 w-2 rounded-full bg-gradient-to-r from-azure to-electric" />

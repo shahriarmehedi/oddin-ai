@@ -79,10 +79,8 @@ export function TestimonialsSection() {
                                         data-card
                                         key={item.author}
                                         className="relative flex-[0_0_100%] min-w-0 rounded-[28px] border border-white/10 bg-gradient-to-b from-white/5 to-night/40 p-8 text-center shadow-card"
-                                        initial={{ opacity: 0, y: 32 }}
-                                        whileInView={{ opacity: 1, y: 0 }}
-                                        viewport={{ once: true, amount: 0.5 }}
-                                        transition={{ delay: idx * 0.05, duration: 0.5 }}
+                                        initial={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.2 }}
                                         whileHover={{ scale: 1.02 }}
                                     >
                                         <div className="flex flex-col items-center gap-6">

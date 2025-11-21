@@ -31,11 +31,9 @@ function StatCircle({ label, value, color }: (typeof stats)[number]) {
     return (
         <motion.div
             ref={ref}
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true, amount: 0.4 }}
+            initial={{ opacity: 1, scale: 1 }}
             whileHover={{ scale: 1.03 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.3 }}
             className="group relative"
         >
             <div className="relative overflow-hidden rounded-[32px] border border-white/10 bg-gradient-to-b from-white/5 to-transparent p-10 text-center backdrop-blur-sm transition-all duration-300 group-hover:border-white/20 group-hover:shadow-[0_0_60px_rgba(255,255,255,0.1)]">
