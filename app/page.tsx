@@ -1,5 +1,6 @@
 import { AboutSection } from "../components/sections/AboutSection";
 import { AlertsSection } from "../components/sections/AlertsSection";
+import { DifferenceSection } from "../components/sections/DifferenceSection";
 import { FAQSection } from "../components/sections/FAQSection";
 import { FeaturesSection } from "../components/sections/FeaturesSection";
 import { HeroSection } from "../components/sections/Hero";
@@ -16,7 +17,9 @@ export default function Home() {
     <main className="bg-night text-white">
       <HeroSection />
       <div className="h-12" />
-      <RealtimeAISection />
+      {/* <RealtimeAISection /> */}
+      {/* <div className="h-12" /> */}
+      <DifferenceSection />
       <div className="h-12" />
       <StatsSection />
       <div className="h-12" />
